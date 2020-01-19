@@ -1,11 +1,11 @@
 #include "dweetESP32.h"
 #include <WiFiClientSecure.h>
-#define THIG_NAME  "anti_stolen_test_12345678"  // Put here your thing name
-#define WIFISSID "phloenlom_2.4GHz"
-#define PASSWORD "248248248"
+#define THIG_NAME  "anti_stolen_test_YourThingName"  // Put here your thing name
+#define WIFISSID "YourWiFiSSID"
+#define PASSWORD "YourWiFiPassword"
 #define time_loop 60000   // Time per round
 #define count_loop 2      // number of same response to start Notify
-#define LINE_TOKEN "ezkvxSUO8aNZJRhJD5IA33joh8kG1wgHWxbZPsao23n"
+#define LINE_TOKEN "............Your.Line.Token................"
 
 dweet client;
 
